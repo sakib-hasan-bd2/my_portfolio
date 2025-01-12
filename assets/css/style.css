@@ -42,6 +42,42 @@
 .st-resume-timeline .st-resume-timeline-text .sakib_01{
   margin-bottom: 19px;
 }
+/* ====== skill part right start ====== */
+.my_skill h3{
+  white-space: nowrap;
+  font-size: 18px;
+}
+.skill_main{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.my_skill_main{
+  display: flex;
+  column-gap: 20px;
+}
+.my_skill_item{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skill_m1{
+  margin-left: 128px;
+}
+.skill_m2{
+  margin-left: 63px;
+}
+.my_skill_item strong{
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 6px;
+  border: 1px solid #8D8BA8;
+  border-radius: 3px;
+  transition: all linear .4s;
+}
+
+/* ====== skill part right end ====== */
+
 /* ====== sb change ====== */
 body,
 html {
